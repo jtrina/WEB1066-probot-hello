@@ -3,7 +3,7 @@
  * @param {import('probot').Application} app - Probot's Application class.
  */
 module.exports = app => {
-  // Your code here
+  // Your code here JT
   app.log('Yay, the app was loaded!')
 
   app.on('issues.opened', async context => {
